@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+
+# App artifacts / generated files
+foodwaste.db
+*.zip
+
+# NOTE: If your CSVs are large or private, keep this line:
+# data/*.csv
+# If you want CSVs tracked in the repo, REMOVE the line above.
